@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--script src="https://cdn.tailwindcss.com" ></script>-->
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/d706230aa8.js" crossorigin="anonymous"></script>
+</head>
+<body class="flex items-center">
+    <div class="sidebar backdrop-blur-md bg-black/30 ml-12 flex justify-between items-center flex-col shadow-xl">
+        <i class="playbutton fa-regular fa-lg fa-circle-play mt-2" style="color: #ffffff;"></i>
+        <i class="boxicon fa-sharp fa-solid fa-table-cells-large" style="color: #ffffff;"></i>
+        <i class="fa-sharp fa-solid fa-tv" style="color: #ffffff;"></i>
+        <i class="fa-solid fa-share" style="color: #ffffff;"></i>
+        <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+        <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+    </div>
+    <div class="maincontainer flex backdrop-blur-xl">
+        <div class="contentcontainer rounded-l-3xl backdrop-blur bg-black/30 h-full flex">
+            <div class="leftnav h-full">
+                <div class="logo">
+                    <img alt="netflix logo" src="images/netflix.png" class="w-32 pt-5" >
+                </div>
+                <div class="nav mt-6 mb-4">
+                    <ul class="flex flex-col">
+                        <li class="text-xs"><i class="smallplaybutton mr-2 fa-solid fa-play fa-2xs" style="color: black;"></i>Browse</li>
+                        <li class="text-xs"><i class="hearticon fa-regular fa-heart fa-sm mr-2.5" style="color: #ffffff;"></i>Wishlist</li>
+                        <li class="text-xs"><i class="calendaricon fa-regular fa-calendar fa-sm mr-2.5" style="color: #ffffff;"></i>Coming Soon</li>
+                    </ul>
+                </div>
+                <div class="trailers">
+                    <div class="trailertext mb-6">New Trailers</div>
+                        <div class="trailercontainer">
+                            <img class="trailerpreview" style="width: 250px; height: 150px;" src="images/shadowpic.webp">
+                            <div class="showtitle backdrop-blur-xl bg-white/30">Shadow and Bone<i class="playbuttontrailer fa-solid fa-play fa-sm backdrop-blur-xl bg-white/30 " style="color: #ffffff;"></i></div>
+                        </div>
+                        <div class="trailercontainer">
+                            <img class="trailerpreview" src="images/nightagent.png">
+                            <div class="showtitle backdrop-blur-xl bg-white/30">The Night Agent<i class="playbuttontrailer fa-solid fa-play fa-sm backdrop-blur-xl bg-white/30" style="color: #ffffff;"></i></div>
+                        </div>
+                        <div class="trailercontainer">
+                            <img id="witcherimage mb-3" class="trailerpreview" src="images/witcher.webp">
+                            <div class="showtitle backdrop-blur-xl bg-white/30 mb-3">The Witcher<i class="playbuttontrailer fa-solid fa-play fa-sm backdrop-blur-xl bg-white/30" style="color: #ffffff;"></i></div>
+                        </div>
+                </div>
+            </div>
+            <div class="moviecontainer">
+                <div class="topsearch flex justify-between">
+                    <div class="leftsearchcontainer w-full flex ">
+                        <div class="searcharrows">
+                            <i class="fa-solid fa-chevron-left" style="color: #fcfcfc;"></i>
+                            <i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="searchbar"><input type="search" id="searchbar" name="Search" placeholder="Search..."></div>
+                    </div>
+                    <div class="rightsearchcontainer flex items-center">
+                        <i class="fa-regular fa-bell" style="color: #ffffff;"></i>
+                        <div class="user flex backdrop-blur-xl bg-white/30">
+                            <div class="profile"><img class="profilepicture" src="images/samantha.png" alt="profile picture"></div>
+                            <div class="username text-xs">Samantha G.<span class="font-thin">@SamanthaG</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainmovie">
+                
+                </div> 
+                <h2>Popcorn Mania</h2>
+                <div class="moremoviecontainer">
+                    <div class="moremovies">
+                        <img class="movie" src="images/brooklynnine.jpeg">
+                    </div>
+                    <div class="moremovies">
+                        <img class="movie" src="images/brooklynnine.jpeg">
+                    </div>
+                    <div class="moremovies">
+                        <img class="movie" src="images/brooklynnine.jpeg">
+                    </div>
+                    <div class="moremovies">
+                        <img class="movie" src="images/brooklynnine.jpeg">
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>

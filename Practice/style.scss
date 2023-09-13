@@ -1,0 +1,66 @@
+@use 'app.css';
+
+.profile :first-child{
+    width: 30px;
+    height: 25px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 1px solid rgb(187, 1, 1);
+}
+.topsearch {
+    height: 70px;
+    width: 96%;
+    align-items: center;
+    margin: 0px auto;
+}
+.user .profile {
+    padding: 5px;
+    margin-left: 4px;
+}
+.user .username {
+    padding: 5px;
+}
+.user {
+    border-radius: 24px;
+    align-items: center;
+}
+.moviecontainer {
+    width: 100%;
+    padding: 0px;
+}
+.mainmovie {
+    background-image: url(images/peakyblinders.avif);
+    width: 96%;
+    height: 35%;
+    object-fit: scale-down;
+    border-radius: 24px;
+    margin: 0px auto;
+}
+.moremoviecontainer{
+    width: 96%;
+    height: 30%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.moremovies {
+    position: relative;
+    margin-top: 12px;
+    height: 70%;
+    width: 90%;
+}
+.movie {
+    height: 100%;
+    width: 80%;
+    object-fit: contain;
+    border-radius: 10%;
+    position: relative;
+    overflow: scroll;
+}
+h2 {
+    width: 95%;
+    margin: 10px auto 0px auto;
+}
+ul li {
+    padding: 5px;
+}
