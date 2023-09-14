@@ -802,11 +802,12 @@ body {
 .movie {
   height: 100%;
   width: 80%;
-  -o-object-fit: contain;
-     object-fit: contain;
-  border-radius: 10%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 24px;
   position: relative;
   overflow: scroll;
+  border: 1px solid black;
 }
 
 h2 {
