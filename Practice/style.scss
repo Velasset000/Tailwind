@@ -27,18 +27,20 @@
 .moviecontainer {
     width: 100%;
     padding: 0px;
+    overflow: scroll;
 }
 .mainmovie {
-    background-image: url(images/peakyblinders.avif);
+    background-image: url(images/peakyblinders.png);
     width: 96%;
-    height: 35%;
-    object-fit: scale-down;
+    height: 280px;
     border-radius: 24px;
     margin: 0px auto;
+    background-size: cover;
+    background-position: center;
 }
 .moremoviecontainer{
     width: 96%;
-    height: 30%;
+    height: 22%;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -46,17 +48,27 @@
 .moremovies {
     position: relative;
     margin-top: 12px;
-    height: 70%;
-    width: 90%;
+    height: 100%;
+    width: 70%;
 }
 .movie {
     height: 100%;
-    width: 80%;
-    object-fit: cover;
+    width: 90%;
     border-radius: 24px;
+    object-fit: fill;
     position: relative;
-    overflow: scroll;
-    border: 1px solid black;
+}
+.moremovietext {
+    position: absolute;
+    bottom: 5px;
+    left: 13px;
+    z-index: 10;
+}
+.moremovietext h3 {
+    font-size: 1vw;
+}
+.moremovietext div {
+    font-size: .7vw;
 }
 h2 {
     width: 95%;
@@ -64,4 +76,88 @@ h2 {
 }
 ul li {
     padding: 5px;
+}
+.continuewatchingcontainer {
+    height: 16%;
+    display: flex;
+    width: 96%;
+    margin: 0px auto;
+}
+.continuewatchingheader {
+    margin-top: 30px;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 5));
+    z-index: 3;
+    border-radius: 24px;
+}
+.watchbar {
+    position: absolute;
+    bottom: 6px;
+    left: 11px;
+    z-index: 10;
+    margin-bottom: 6px;
+    height: .2vw;
+    width: 78%;
+    background-color: white;
+    border-radius: 3px;
+}
+.watchprogress {
+    height: 100%;
+    background-color: red;
+    width: 30%;
+    border-radius: 3px;
+}
+.watchprogress2 {
+    height: 100%;
+    background-color: red;
+    width: 60%;
+    border-radius: 3px;
+}
+.watchprogress3 {
+    height: 100%;
+    background-color: red;
+    width: 20%;
+    border-radius: 3px;
+}
+.watchprogress4 {
+    height: 100%;
+    background-color: red;
+    width: 90%;
+    border-radius: 3px;
+}
+.continuewatchingtext{
+    position: absolute;
+    bottom: 17px;
+    left: 11px;
+    z-index: 10;
+    font-size: 1vw;
+}
+.continuebutton {
+    position: absolute;
+    bottom: 50%;
+    left: 39%;
+    z-index: 10;
+}
+.searchbar {
+    padding: .2vw 7vw .2vw 1vw;
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    background-color: none;
+    color: lightgrey;
+}
+.searcharrows > * {
+    padding: 0px 10px;
+}
+.leftarrow {
+    opacity: 40%;
+}
+.notification {
+    padding-right: 3vw;
 }

@@ -55,7 +55,7 @@ body {
 }
 .smallplaybutton {
     background-color: red;
-    padding: 6px 4px;
+    padding: 6px 3px 6px 4px;
     border-radius: 100%;
 }
 .hearticon {
@@ -70,11 +70,11 @@ body {
 .trailercontainer{
     position: relative;
     margin-top: 12px;
-    height: 10%;
+    height: 8%;
     width: 90%;
 }
 .trailerpreview {
-    height: 100px;
+    height: 130px;
     width: 250px;
     object-fit: cover;
     border-radius: 15px;
@@ -89,6 +89,7 @@ body {
     width: 100%;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    font-size: 1vw;
 }
 .leftnav {
     width: 17%;
@@ -98,7 +99,7 @@ body {
     overflow: scroll;
 }
 .playbuttontrailer {
-    padding: 12px 2px;
+    padding: 10px 6px 10px 8px;
     border-radius: 100%;
 }
 .topsearch {
